@@ -40,46 +40,57 @@ namespace SessionProblem2
                 new Employee {id=112, name="Santosh" ,department="Devlopment", salary=33000, dateOfJoining= new DateTime(2020,3,22)}
 
             };
-            //var joining = from emp in employee
-            //              where emp.dateOfJoining > new DateTime(2021, 5, 20)
-            //              select emp;
+            var joining = from emp in employee
+                          where emp.dateOfJoining > new DateTime(2021, 5, 20)
+                          select emp;
 
 
-            //foreach (var emp in joining)
-            //{
-            //    Console.WriteLine($"Name: {emp.name}, DateOfJoining: {emp.dateOfJoining}");
-            //}
+            foreach (var emp in joining)
+            {
+                Console.WriteLine($"Name: {emp.name}, DateOfJoining: {emp.dateOfJoining}");
+            }
 
-            //// Calculate the average salary of employees in each department.
-            //var groupByDept =  from emp in employee
-            //                   group emp by emp.department into deptGroup
-            //                   select new
-            //                   {
-            //                       department = deptGroup.Key,
-            //                       AverageSalary = deptGroup.Average(e => e.salary)
-            //                   };
-            //foreach(var emp in groupByDept)
-            //{
-            //    Console.WriteLine($"Department: {emp.department}, Average Salary: {emp.AverageSalary}");
-            //}
+            // Calculate the average salary of employees in each department.
+            var groupByDept = from emp in employee
+                              group emp by emp.department into deptGroup
+                              select new
+                              {
+                                  department = deptGroup.Key,
+                                  AverageSalary = deptGroup.Average(e => e.salary)
+                              };
+            foreach (var emp in groupByDept)
+            {
+                Console.WriteLine($"Department: {emp.department}, Average Salary: {emp.AverageSalary}");
+            }
 
-            ////Group employees by department and list their names.
-            //var groupBY = from emp in employee
-            //              group emp by emp.department into deptmentGroup
-            //              select deptmentGroup;
-            //foreach(var dept in groupBY)
-            //{
-            //    Console.WriteLine($"Department name: {dept.Key}");
-            //    foreach(var emp in dept)
-            //    {
-            //        Console.WriteLine($"Name: {emp.name}");
-            //    }
-            //}
+            //Group employees by department and list their names.
+            var groupBY = from emp in employee
+                          group emp by emp.department into deptmentGroup
+                          select deptmentGroup;
+            foreach (var dept in groupBY)
+            {
+                Console.WriteLine($"Department name: {dept.Key}");
+                foreach (var emp in dept)
+                {
+                    Console.WriteLine($"Name: {emp.name}");
+                }
+            }
 
             //Find the top 3 highest - paid employees using Lambda and LINQ.
-            
-                            
-            
+            var empSalary = (from emp in employee
+                             orderby emp.salary descending
+                             select emp).Take(3);
+
+            foreach(var emp in empSalary)
+            {
+                Console.WriteLine($"ID: {emp.id}, name: {emp.name}, Department: {emp.department}, Salary: {emp.salary}");
+            }
+
+                             
+
+
+
+
         }
     }
 }

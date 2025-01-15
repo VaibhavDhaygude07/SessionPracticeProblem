@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Session_Problem1", "Session
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionProblem2", "SessionProblem2\SessionProblem2.csproj", "{11F2DD54-0635-4E39-A035-E9990CB69959}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionProblem3", "SessionProblem3\SessionProblem3.csproj", "{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{11F2DD54-0635-4E39-A035-E9990CB69959}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{11F2DD54-0635-4E39-A035-E9990CB69959}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{11F2DD54-0635-4E39-A035-E9990CB69959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
