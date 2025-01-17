@@ -20,11 +20,11 @@ namespace SessionProblem3
     {
         static void Main(string[] args)
         {
-            //)You have a list of products with ProductID, Name, Category, Price, and StockQuantity.
+            //You have a list of products with ProductID, Name, Category, Price, and StockQuantity.
             //Write a LINQ query to filter out products with stock less than 10.
             //Use Lambda expressions to calculate the total value of products in a specific category.
             //Find the cheapest product in each category.
-
+                    
             List<Product> products = new List<Product>
             {
                 new Product{productId=1, name="Mobile", category="Electronic", price=20000, stockQuantity=38},

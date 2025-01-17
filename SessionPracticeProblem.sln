@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionProblem2", "SessionP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionProblem3", "SessionProblem3\SessionProblem3.csproj", "{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPracticeProblem", "LinqPracticeProblem\LinqPracticeProblem.csproj", "{4A768935-3C46-459D-90C1-C13C277A31FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCFA5FFB-12BD-4350-9F5E-FDA14C2C5390}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A768935-3C46-459D-90C1-C13C277A31FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A768935-3C46-459D-90C1-C13C277A31FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A768935-3C46-459D-90C1-C13C277A31FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A768935-3C46-459D-90C1-C13C277A31FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

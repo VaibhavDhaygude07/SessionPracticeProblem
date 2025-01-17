@@ -40,6 +40,7 @@ namespace SessionProblem2
                 new Employee {id=112, name="Santosh" ,department="Devlopment", salary=33000, dateOfJoining= new DateTime(2020,3,22)}
 
             };
+
             var joining = from emp in employee
                           where emp.dateOfJoining > new DateTime(2021, 5, 20)
                           select emp;

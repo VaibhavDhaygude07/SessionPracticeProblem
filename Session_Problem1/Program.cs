@@ -36,6 +36,7 @@ namespace Session_Problem1
             var resultLetter = from y in strList
                                where y.StartsWith("A")
                                select y;
+
             foreach (var result in resultLetter)
             {
                 Console.WriteLine(result);
@@ -51,12 +52,7 @@ namespace Session_Problem1
             }
 
 
-
-
-
-
             //Write a program that groups a list of Person objects by their age using LINQ.
-
 
             List<Person> people = new List<Person>
             {
@@ -71,6 +67,7 @@ namespace Session_Problem1
             var groupBy = from Person in people
                           group Person by Person.age into ageGroup
                           select ageGroup;
+
             foreach(var group in groupBy)
             {
                 Console.WriteLine($"Age: {group.Key}");
