@@ -29,6 +29,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqPracticeProblem", "Linq
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandling", "FilleHandling\FileHandling.csproj", "{960BB64E-0CF5-4665-A0ED-A9C7A60D3D74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO_", "FileIO_\FileIO_.csproj", "{94326E54-5BC7-4E4D-AC2B-135892FC9E40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +91,14 @@ Global
 		{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2173A49-37CA-4F2E-BFCD-AAEE735C8CEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{960BB64E-0CF5-4665-A0ED-A9C7A60D3D74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{960BB64E-0CF5-4665-A0ED-A9C7A60D3D74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{960BB64E-0CF5-4665-A0ED-A9C7A60D3D74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{960BB64E-0CF5-4665-A0ED-A9C7A60D3D74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94326E54-5BC7-4E4D-AC2B-135892FC9E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94326E54-5BC7-4E4D-AC2B-135892FC9E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94326E54-5BC7-4E4D-AC2B-135892FC9E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94326E54-5BC7-4E4D-AC2B-135892FC9E40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
