@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileHandling", "FilleHandli
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIO_", "FileIO_\FileIO_.csproj", "{94326E54-5BC7-4E4D-AC2B-135892FC9E40}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIOJson", "FileOPJson\FileIOJson.csproj", "{8A223DD5-4541-4B5E-BF2F-C9BE7FC04E4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{94326E54-5BC7-4E4D-AC2B-135892FC9E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94326E54-5BC7-4E4D-AC2B-135892FC9E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94326E54-5BC7-4E4D-AC2B-135892FC9E40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A223DD5-4541-4B5E-BF2F-C9BE7FC04E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A223DD5-4541-4B5E-BF2F-C9BE7FC04E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A223DD5-4541-4B5E-BF2F-C9BE7FC04E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A223DD5-4541-4B5E-BF2F-C9BE7FC04E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

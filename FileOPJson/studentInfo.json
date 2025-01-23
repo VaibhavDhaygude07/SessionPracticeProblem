@@ -1,0 +1,27 @@
+[
+  {
+    "RollNo": 1,
+    "Name": "Joshep",
+    "Subject": "Physics"
+  },
+  {
+    "RollNo": 2,
+    "Name": "Harry",
+    "Subject": "Math"
+  },
+  {
+    "RollNo": 3,
+    "Name": "Smeeth",
+    "Subject": "Chemistry"
+  },
+  {
+    "RollNo": 4,
+    "Name": "Devid",
+    "Subject": "Biology"
+  },
+  {
+    "RollNo": 5,
+    "Name": "Josh",
+    "Subject": "Histry"
+  }
+]
