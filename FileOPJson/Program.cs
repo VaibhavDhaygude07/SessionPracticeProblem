@@ -33,7 +33,7 @@ namespace FileIOJson
             string jsonData = JsonConvert.SerializeObject(students, Formatting.Indented);
             File.WriteAllText(path, jsonData);
 
-            //Read daa
+            //Read data
             string readJson = File.ReadAllText(path);
             var deserializedJson = JsonConvert.DeserializeObject<List<Student>>(readJson);
             foreach(var student in deserializedJson)
