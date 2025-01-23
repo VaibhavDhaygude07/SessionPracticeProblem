@@ -29,9 +29,9 @@ namespace FileIOJson
             };
 
             string path = @"C:\Users\aksha\Downloads\C# Program\bridgelabzSessionProblems\FileOPJson\studentInfo.json";
-            // File.Create(path);
-            //string jsonData = JsonConvert.SerializeObject(students, Formatting.Indented);
-            //File.WriteAllText(path, jsonData);
+            File.Create(path);
+            string jsonData = JsonConvert.SerializeObject(students, Formatting.Indented);
+            File.WriteAllText(path, jsonData);
 
             //Read daa
             string readJson = File.ReadAllText(path);
