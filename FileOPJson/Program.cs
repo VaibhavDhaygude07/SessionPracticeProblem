@@ -36,7 +36,7 @@ namespace FileIOJson
             //Read data
             string readJson = File.ReadAllText(path);
             var deserializedJson = JsonConvert.DeserializeObject<List<Student>>(readJson);
-            foreach(var student in deserializedJson)
+            foreach (var student in deserializedJson)
             {
                 Console.WriteLine($"Id: {student.RollNo}, Name: {student.Name}, Subject: {student.Subject}");
             }
