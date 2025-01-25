@@ -37,6 +37,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileIOJson", "FileOPJson\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAnnotation", "DataAnnotation\DataAnnotation.csproj", "{C0055D5B-E92D-418A-A3DC-3B2CCD07BB1B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data_Annotation", "Data_Annotation\Data_Annotation.csproj", "{E927C75B-C057-47F2-BC30-C043A1AF5073}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RegularExpression", "RegularExpression\RegularExpression.csproj", "{C36F7DA8-BE50-4406-B060-BE9A9AE6D6FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{C0055D5B-E92D-418A-A3DC-3B2CCD07BB1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0055D5B-E92D-418A-A3DC-3B2CCD07BB1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0055D5B-E92D-418A-A3DC-3B2CCD07BB1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E927C75B-C057-47F2-BC30-C043A1AF5073}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E927C75B-C057-47F2-BC30-C043A1AF5073}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E927C75B-C057-47F2-BC30-C043A1AF5073}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E927C75B-C057-47F2-BC30-C043A1AF5073}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C36F7DA8-BE50-4406-B060-BE9A9AE6D6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C36F7DA8-BE50-4406-B060-BE9A9AE6D6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C36F7DA8-BE50-4406-B060-BE9A9AE6D6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C36F7DA8-BE50-4406-B060-BE9A9AE6D6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
