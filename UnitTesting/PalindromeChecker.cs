@@ -20,7 +20,7 @@ namespace UnitTesting
                 reverse += temp[i];
             }
 
-            if (str == temp)
+            if (str == reverse)
             {
                 Console.WriteLine("String is palindrom");
                 return true;

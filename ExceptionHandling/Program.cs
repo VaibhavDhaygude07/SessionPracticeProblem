@@ -18,13 +18,10 @@ namespace ExceptionHandling
              num2 = Convert.ToInt32(Console.ReadLine());
             try
             {
-
-
                 if (num2 % 2 > 0) 
                 {
                     throw new Exception();
                 }
-
             }
             catch(Exception e)
             {
