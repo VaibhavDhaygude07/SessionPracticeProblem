@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmpJson", "EmpJson\EmpJson.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Multithreding", "Multithreding\Multithreding.csproj", "{9FADCA56-3459-4309-94C3-B7AE9A807C0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReviewProblems", "ReviewProblems\ReviewProblems.csproj", "{FE3699D3-3C5F-46A2-B83E-A023F0721519}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{9FADCA56-3459-4309-94C3-B7AE9A807C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FADCA56-3459-4309-94C3-B7AE9A807C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FADCA56-3459-4309-94C3-B7AE9A807C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE3699D3-3C5F-46A2-B83E-A023F0721519}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE3699D3-3C5F-46A2-B83E-A023F0721519}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE3699D3-3C5F-46A2-B83E-A023F0721519}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE3699D3-3C5F-46A2-B83E-A023F0721519}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
