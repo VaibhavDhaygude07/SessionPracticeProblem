@@ -363,3 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 /EmpJson
 /EmpRestSharp
+/EmpRestSharp/Employee.cs
+/Multithreding/Program.cs
