@@ -56,6 +56,8 @@ namespace LinqPracticeProblem
             {
                 Console.WriteLine($"Name: {salary.name},Salary: {salary.salary}");
             }
+
+            PracticeProblem.Linq();
         }
     }
 }
